@@ -13,6 +13,7 @@
     height: 56px;
     border-radius: .6em !important;
   }
+
 .table td, th{
   vertical-align: :middle !important;
   text-align: center !important;
@@ -35,4 +36,8 @@
   font-size: small;
   color: #00afbe;
   text-transform: uppercase;
+}
+.chart-line{
+  width: 200px;
+  display: inline-block;
 }

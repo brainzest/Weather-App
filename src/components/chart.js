@@ -7,7 +7,7 @@ const average = (data) => _.round(_.sum(data)/data.length);
 
 export default (props)=>{
   return(
-    <div>
+    <div className="chart-line">
 
       <Sparklines height={100} width={120} data={props.data}>
         <SparklinesLine color={props.color} />
